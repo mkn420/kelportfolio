@@ -1,0 +1,123 @@
+*{
+    marhin:0;
+    padding:0;
+     /* outline: 1px solid tomato; */
+}
+
+.pop{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* on load animation */
+
+.drop-in{
+ animation: drop-in 1200ms ease 500ms backwards;
+}
+
+@keyframes drop-in{
+ from {
+  opacity: 0;
+  transform: translateY(100px);
+ }
+ to {
+  opacity: 1;
+  transform: translate(0px);
+ }
+}
+
+/* on load animation end*/
+
+
+.nav-bar{
+    -webkit-transform: translateY(0);
+          transform: translateY(0);
+  transition: transform .5s ease-out;
+}
+.nav-up {
+  
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  transition: transform .5s ease-out;
+}
+/* active menu */
+
+
+
+.h span.active{
+    opacity:0;
+}
+
+.h span.active{
+    opacity:1;
+}
+
+
+/* .overlay{
+    background: #fff;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+    height :100vh;
+    width :100vw;
+}
+
+.pg{
+    padding:20px;
+} */
+
+@keyframes fade {
+  0% {
+    width:0%;
+  }
+  100% {
+    width:100%;
+  }
+}
+
+/* @keyframes fade-out {
+  100% {
+    width:100%;
+  }
+  0% {
+    width:0%;
+  }
+} */
+
+ .overlay{
+         display:none;
+       animation: fade-out 0.6s ease backwards;
+}
+
+div.overlay.open{
+        display:block;
+   animation: fade 0.6s ease forwards; 
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transition: all 1s ease;
+}
