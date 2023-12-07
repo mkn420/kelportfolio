@@ -1,2 +1,2 @@
 # kelportfolio
-made from html, tailwind css, Jquery, and JavaScript.
+Created with html, tailwind css, Jquery, and JavaScript.
