@@ -1,9 +1,11 @@
 ::-moz-selection { /* Code for Firefox */
-  color: #99f6e4;
+  color: #2dd4bf;
+  background:#18181b;
 }
 
 ::selection {
-  color: #99f6e4;
+  color: #2dd4bf;
+  background:#18181b;
 }
 
 
