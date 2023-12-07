@@ -1,3 +1,12 @@
+::-moz-selection { /* Code for Firefox */
+  color: #d4d4d8;
+}
+
+::selection {
+  color: #d4d4d8;
+}
+
+
 *{
     marhin:0;
     padding:0;
