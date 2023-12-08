@@ -1,2 +1,1 @@
-# kelportfolio
-Created with html, tailwind css, Jquery, and JavaScript.
+# Kel Portfolio
