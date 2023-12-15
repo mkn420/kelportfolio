@@ -21,6 +21,11 @@
 
 /* Grain */
 
+ #wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+
 .grain {
     z-index: 99;
     opacity: .04;
