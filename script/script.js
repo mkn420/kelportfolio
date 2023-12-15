@@ -137,5 +137,4 @@ themeToggleBtn.addEventListener('click', function() {
          grainWidth: 1,
          grainHeight: 1
  };
-
 grained('#wrapper',options);
