@@ -146,3 +146,6 @@
     window.grained = grained;
     //END
 })(window, document);
+
+
+grained('#wrapper', options);
