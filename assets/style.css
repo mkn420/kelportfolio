@@ -1,4 +1,4 @@
-::-moz-selection { /* Code for Firefox */
+/* ::-moz-selection {
   color: #2dd4bf;
   background:#18181b;
 }
@@ -6,7 +6,7 @@
 ::selection {
   color: #2dd4bf;
   background:#18181b;
-}
+} */
 
 
 *{
