@@ -26,17 +26,20 @@
     height: 100vh;
   }
 
-.grain::before {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    content: "";
-    opacity: .03;
-    z-index: 1000;
-    pointer-events: none;
-    background-image: url(/kelportfolio/assets/img/noise.gif);
+.grain {
+	position: relative;
+	z-index: 1;
+	}
+
+.noise:before, .body-noise:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+  background-image: url(/kelportfolio/assets/img/noise.gif);
 }
 
 /* Grain end */
