@@ -49,6 +49,11 @@
 
 /* on load animation end*/
 
+@media (max-width: 1536px){
+.nav-bar{
+      width: 68%;
+}
+}
 
 .nav-bar{
     -webkit-transform: translateY(0);
