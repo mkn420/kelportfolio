@@ -51,7 +51,7 @@
 
 @media (min-width: 1536px){
 .nav-bar{
-      width: 68%;
+      width: 67%!important;
 }
 }
 
