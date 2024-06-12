@@ -49,9 +49,9 @@
 
 /* on load animation end*/
 
-@media (min-width: 1536px){
+@media only screen and (max-width: 1536px){
 .nav-bar{
-      width: 67%!important;
+      width: 67%;
 }
 }
 
